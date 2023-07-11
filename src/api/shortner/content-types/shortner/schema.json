@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shortners",
+  "info": {
+    "singularName": "shortner",
+    "pluralName": "shortners",
+    "displayName": "shortner "
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "alias": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "visit": {
+      "type": "integer"
+    },
+    "user": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}
